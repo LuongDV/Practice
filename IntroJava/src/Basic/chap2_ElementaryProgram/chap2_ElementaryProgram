@@ -1,0 +1,54 @@
+-------------------Chap2--------
+2.4 Identifiers
+Identifiers are the names that identify the elements such as classes, methods, and
+variables in a program
+
+2.5 Variables
+Variables are used to represent values that may be changed in the program
+
+2.6 Assignment Statements and Assignment
+Expressions
+An assignment statement designates a value for a variable. An assignment statement
+can be used as an expression in Java
+
+2.7 Named Constants
+A named constant is an identifier that represents a permanent value
+
+2.8 Naming Conventions
+Sticking with the Java naming conventions makes your programs easy to read and
+avoids errors
+
+2.9 Numeric Data Types and Operations
+Java has six numeric types for integers and floating-point numbers with operators +,
+-, *, /, and %
+
+2.10 Numeric Literals
+A literal is a constant value that appears directly in a program
+
+2.11 Evaluating Expressions and Operator Precedence
+Java expressions are evaluated in the same way as arithmetic expressions
+
+2.12 Case Study: Displaying the Current Time
+You can invoke System.currentTimeMillis() to return the current time
+
+2.13 Augmented Assignment Operators
+The operators +, -, *, /, and % can be combined with the assignment operator to form
+augmented operators
+
+2.14 Increment and Decrement Operators
+The increment operator (++) and decrement operator (––) are for incrementing and
+decrementing a variable by 1
+
+2.15 Numeric Type Conversions
+Floating-point numbers can be converted into integers using explicit casting
+
+2.16 Software Development Process
+The software development life cycle is a multistage process that includes requirements
+specification, analysis, design, implementation, testing, deployment, and maintenance
+
+2.17 Case Study: Counting Monetary Units
+This section presents a program that breaks a large amount of money into smaller
+units
+
+2.18 Common Errors and Pitfalls
+Common elementary programming errors often involve undeclared variables, uninitialized variables, integer overflow, unintended integer division, and round-off errors
