@@ -1,6 +1,6 @@
 package Algorithms.Array;
 
-public interface L35_Arrays2 {
+public class L35_Arrays2 {
     public static void main(String[] args) {
         //tổng quát: kiểu [][] tên mảng;
         int[][] arr = new int[4][3];

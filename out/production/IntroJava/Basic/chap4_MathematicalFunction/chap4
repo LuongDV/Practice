@@ -1,0 +1,62 @@
+4.1 Introduction
+The focus of this chapter is to introduce mathematical functions, characters, string
+objects, and use them to develop programs.
+
+4.2 Common Mathematical Functions
+Java provides many useful methods in the Math class for performing common mathematical functions
+
+Method Description
+exp(x) Returns e raised to power of x (ex).
+log(x) Returns the natural logarithm of x (ln(x) = loge(x)).
+log10(x) Returns the base 10 logarithm of x (log10(x)).
+pow(a, b) Returns a raised to the power of b (ab).
+sqrt(x) Returns the square root of x (2x) for x 7 = 0.
+
+
+Math.max(2, 3) returns 3
+Math.max(2.5, 3) returns 4.0
+Math.min(2.5, 4.6) returns 2.5
+Math.abs(-2) returns 2
+Math.abs(-2.1) returns 2.1
+
+Math.ceil(2.1) returns 4.0
+Math.ceil(2.0) returns 2.0
+Math.ceil(-2.0) returns -2.0
+Math.ceil(-2.1) returns -2.0
+Math.floor(2.1) returns 2.0
+Math.floor(2.0) returns 2.0
+Math.floor(-2.0) returns –2.0
+Math.floor(-2.1) returns -4.0
+Math.rint(2.1) returns 2.0
+Math.rint(-2.0) returns –2.0
+Math.rint(-2.1) returns -2.0
+Math.rint(2.5) returns 2.0
+Math.rint(4.5) returns 4.0
+Math.rint(-2.5) returns -2.0
+Math.round(2.6f) returns 3 // Returns int
+Math.round(2.0) returns 2 // Returns long
+Math.round(-2.0f) returns -2 // Returns int
+Math.round(-2.6) returns -3 // Returns long
+Math.round(-2.4) returns -2 // Returns long
+
+//check point
+4.1:
+a.2
+d.4
+
+
+4.3 Character Data Type and Operations
+A character data type represents a single character.
+
+4.4 The String Type
+A string is a sequence of characters.
+
+
+
+4.5 Case Studies
+Strings are fundamental in programming. The ability to write programs using strings
+is essential in learning Java programming.
+
+4.6 Formatting Console Output
+You can use the System.out.printf method to display formatted output on the
+console

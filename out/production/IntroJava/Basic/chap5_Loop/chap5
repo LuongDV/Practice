@@ -1,0 +1,45 @@
+5.1 Introduction
+A loop can be used to tell a program to execute statements repeatedly
+
+5.2 The while Loop
+A while loop executes statements repeatedly while the condition is true
+
+while (loop-continuation-condition) {
+// Loop body
+Statement(s);
+}
+
+
+5.2.2 Loop Design Strategies
+Step 1: Identify the statements that need to be repeated.
+Step 2: Wrap these statements in a loop like this:
+while (true) {
+Statements;
+}
+Step 3: Code the loop-continuation-condition and add appropriate statements for
+controlling the loop.
+while (loop-continuation-condition) {
+Statements;
+Additional statements for controlling the loop;
+}
+
+
+5.4 : the For loop
+
+for ( ; ; ) {
+    //do something
+}
+
+=
+
+for ( ; true; ) {
+//do something
+}
+
+=
+
+while (true) {
+//do something
+} => this is best
+
+
