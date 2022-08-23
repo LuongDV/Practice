@@ -1,5 +1,6 @@
 package org.example.controller;
 
+import io.swagger.annotations.Api;
 import org.example.model.Book;
 import org.example.service.BookService;
 import org.springframework.web.bind.annotation.*;
@@ -8,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/book")
+@Api(value = "Luongdv")
 public class BookController {
 
     private BookService bookService;
