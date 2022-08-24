@@ -57,6 +57,7 @@
     <modules>
       <module>Mockito</module>
       <module>spring-swagger</module>
+      <module>kafka-example</module>
     </modules>
     <name>Archetype - Practice</name>
   <url>http://maven.apache.org</url>
