@@ -13,6 +13,7 @@
         <module name="spring-swagger" />
         <module name="Mockito" />
         <module name="kafka-example" />
+        <module name="CafeineCache" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CafeineCache" options="-parameters" />
       <module name="Mockito" options="-parameters" />
       <module name="kafka-" options="-parameters" />
       <module name="kafka-example" options="-parameters" />
