@@ -45,18 +45,18 @@ public class Controler {
     return null;
   }
 
-  public static void synLoading() {
-        String key = "A";
-
-    LoadingCache<Key, Graph> cache = Caffeine.newBuilder()
-        .maximumSize(10_000)
-        .expireAfterWrite(10, TimeUnit.MINUTES)
-        .build(key -> createExpensiveGraph(key));
-// Lookup and compute an entry if absent, or null if not computable
-    Graph graph = cache.get(key);
-// Lookup and compute entries that are absent
-    Map<Key, Graph> graphs = cache.getAll(keys);
-  }
+//  public static void synLoading() {
+//        String key = "A";
+//
+//    LoadingCache<Key, Graph> cache = Caffeine.newBuilder()
+//        .maximumSize(10_000)
+//        .expireAfterWrite(10, TimeUnit.MINUTES)
+//        .build(key -> createExpensiveGraph(key));
+//// Lookup and compute an entry if absent, or null if not computable
+//    Graph graph = cache.get(key);
+//// Lookup and compute entries that are absent
+//    Map<Key, Graph> graphs = cache.getAll(keys);
+//  }
 
   private void assertEquals(int i, int size) {
   }
