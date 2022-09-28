@@ -1,8 +1,6 @@
-package com.example.cafeinecache;
+package com.example.cafeinecache.dto;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
 public class DataObject {
