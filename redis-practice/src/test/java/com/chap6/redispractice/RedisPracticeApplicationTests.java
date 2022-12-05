@@ -1,10 +1,10 @@
-package com.chap6upnrunning.redis;
+package com.chap6.redispractice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RedisApplicationTests {
+class RedisPracticeApplicationTests {
 
     @Test
     void contextLoads() {

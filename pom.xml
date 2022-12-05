@@ -63,7 +63,7 @@
       <module>Mockito</module>
       <module>spring-swagger</module>
       <module>kafka-example</module>
-      <module>Redis</module>
+      <module>redis-practice</module>
     </modules>
     <name>Archetype - Practice</name>
   <url>http://maven.apache.org</url>

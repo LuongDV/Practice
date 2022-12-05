@@ -5,14 +5,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.0</version>
+        <version>2.7.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.chap6UpNRunning</groupId>
-    <artifactId>Redis</artifactId>
+    <groupId>com.chap6</groupId>
+    <artifactId>redis-practice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Redis</name>
-    <description>Redis</description>
+    <name>redis-practice</name>
+    <description>redis-practice</description>
     <properties>
         <java.version>11</java.version>
     </properties>

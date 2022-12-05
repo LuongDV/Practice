@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/Log/pom.xml" />
         <option value="$PROJECT_DIR$/CafeineCache/pom.xml" />
         <option value="$PROJECT_DIR$/Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-practice/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
