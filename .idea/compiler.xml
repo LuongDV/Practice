@@ -10,6 +10,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Redis" />
         <module name="spring-swagger" />
         <module name="Mockito" />
         <module name="Log" />
@@ -27,6 +28,7 @@
       <module name="CafeineCache" options="-parameters" />
       <module name="Log" options="-parameters" />
       <module name="Mockito" options="-parameters" />
+      <module name="Redis" options="-parameters" />
       <module name="kafka-" options="-parameters" />
       <module name="kafka-example" options="-parameters" />
       <module name="spring-swagger" options="-parameters" />

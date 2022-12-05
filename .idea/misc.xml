@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/kafka-example/pom.xml" />
         <option value="$PROJECT_DIR$/Log/pom.xml" />
         <option value="$PROJECT_DIR$/CafeineCache/pom.xml" />
+        <option value="$PROJECT_DIR$/Redis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -16,7 +17,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="ProjectType">
