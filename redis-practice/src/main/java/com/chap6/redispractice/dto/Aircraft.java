@@ -6,17 +6,28 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.redis.core.RedisHash;
+
 import java.time.Instant;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@RedisHash
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Aircraft {
     @Id
     private Long id;
-    private String callsign, squawk, reg, flightno, route, type, category;
-    private int altitude, heading, speed;
+    private String callsign;
+    private String squawk;
+    private String reg;
+    private String flightno;
+    private String route;
+    private String type;
+    private String category;
+    private int altitude;
+    private int heading;
+    private int speed;
     @JsonProperty("vert_rate")
     private int vertRate;
     @JsonProperty("selected_altitude")
