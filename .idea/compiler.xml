@@ -21,6 +21,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="kafka-" target="1.8" />
+      <module name="no-sql" target="11" />
       <module name="untitled" target="1.8" />
     </bytecodeTargetLevel>
   </component>
