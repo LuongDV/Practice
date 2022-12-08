@@ -10,6 +10,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-mvc" />
         <module name="spring-swagger" />
         <module name="Mockito" />
         <module name="Log" />
@@ -34,6 +35,7 @@
       <module name="kafka-" options="-parameters" />
       <module name="kafka-example" options="-parameters" />
       <module name="redis-practice" options="-parameters" />
+      <module name="spring-mvc" options="-parameters" />
       <module name="spring-swagger" options="-parameters" />
     </option>
   </component>
