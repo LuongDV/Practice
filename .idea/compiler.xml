@@ -10,19 +10,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-mvc" />
         <module name="spring-swagger" />
         <module name="Mockito" />
         <module name="Log" />
         <module name="CafeineCache" />
         <module name="Redis" />
+        <module name="planefinder" />
         <module name="redis-practice" />
+        <module name="aircraft-positions" />
         <module name="kafka-example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="kafka-" target="1.8" />
       <module name="no-sql" target="11" />
+      <module name="spring-mvc" target="11" />
       <module name="untitled" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -32,8 +34,10 @@
       <module name="Log" options="-parameters" />
       <module name="Mockito" options="-parameters" />
       <module name="Redis" options="-parameters" />
+      <module name="aircraft-positions" options="-parameters" />
       <module name="kafka-" options="-parameters" />
       <module name="kafka-example" options="-parameters" />
+      <module name="planefinder" options="-parameters" />
       <module name="redis-practice" options="-parameters" />
       <module name="spring-mvc" options="-parameters" />
       <module name="spring-swagger" options="-parameters" />

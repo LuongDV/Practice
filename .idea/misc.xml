@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc/kotlin/aircraft-positions" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -11,6 +14,8 @@
         <option value="$PROJECT_DIR$/Redis/pom.xml" />
         <option value="$PROJECT_DIR$/redis-practice/pom.xml" />
         <option value="$PROJECT_DIR$/spring-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc/java/aircraft-positions/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc/java/planefinder/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
