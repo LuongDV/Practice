@@ -24,4 +24,7 @@ public class PositionReporter {
             return List.of();
         };
     }
+
+    // this bean:  one could simply place reportPositions() within the main
+    //application class
 }

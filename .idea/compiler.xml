@@ -24,6 +24,8 @@
     <bytecodeTargetLevel>
       <module name="kafka-" target="1.8" />
       <module name="no-sql" target="11" />
+      <module name="no-sql.main" target="11" />
+      <module name="no-sql.test" target="11" />
       <module name="spring-mvc" target="11" />
       <module name="untitled" target="1.8" />
     </bytecodeTargetLevel>
