@@ -9,3 +9,11 @@ Vredis-practice/src/main/java/com/chap6/redispractice/controller/PlaneFinderPoll
 no-sql/HELP.md,f\a\fa875e9fcaf069f0552da2f4c247beb1b503fd35
 v
 Fredis-practice/src/main/java/com/chap6/redispractice/dto/Aircraft.java,5\5\551d612cc5751585fae32aa46f10037b1e5e04ea
+_
+/spring-mvc/src/main/resources/static/index.html,2\6\2656af162d81b24e9adb9016fff7256daa905c2e
+c
+3spring-mvc/src/main/resources/static/positions.html,f\d\fd4d72800e19a5fd08eaf7e568a7fe64390b8fdc
+E
+kafka-example/pom.xml,8\4\84ab1d5b5fa2862f6233800f9a8a9c0a2808a4e3
+?
+Mockito/pom.xml,5\9\59e9967e87e2eda43b7fbc9c2eabf115adaf91d5
