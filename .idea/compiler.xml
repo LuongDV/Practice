@@ -39,7 +39,7 @@
       <module name="aircraft-positions" options="-parameters" />
       <module name="kafka-" options="-parameters" />
       <module name="kafka-example" options="-parameters" />
-      <module name="planefinder" options="-parameters" />
+      <module name="planefinder" options="" />
       <module name="redis-practice" options="-parameters" />
       <module name="spring-mvc" options="-parameters" />
       <module name="spring-swagger" options="-parameters" />
